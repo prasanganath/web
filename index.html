@@ -1,197 +1,82 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <style type="text/css">
-    * {box-sizing:border-box}
+<html xmlns="http://www.w3.org/1999/html">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <meta name="description" content="Affordable and professinal web design">
+     <meta name="keywords" content="web design,affordale web design,professional web design">
+     <meta name="author" content="Brad Traversy">
+     <title>acme web design | welcome</title>
+     <link rel="stylesheet" href="./css/style.css">
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-  </style>
-	<title></title>
-</head>
+ </head>
 <body>
-  <body bgcolor="light blue">
-  
-  
-
-<div class="slideshow-container">
-
-  
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="san.jpg" style="width:100%">
-    
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="san1.jpg" style="width:100%">
-    
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="san2.jpg" style="width:100%">
-   
-  </div>
-
-  
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-	<div class="container width=50px height=100px" >
-		<div class="card-panel  green" align="center">
-			<h1>PAST PAPERS</h1>
-
-		</div>
-
-		<div class="card-panel center">
-			<a href="first.html">GRADES</a>
-
-			
-		</div>
-		
-		<div class="col s12 m2">
-      
-    </div>
+<header>
     <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                
-                
-              </div>
-            </div>
-            
-    
-            
-    
+        <div id="branding">
+            <h1> <span class="highlight">Amazing</span> Web Designing</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class="current"> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
 
-	</div>
-	<div class="container">
-		
-      <img class="materialboxed" width="650" src="images/sample-1.jpg">
-       
-       
-		
-	</div>
 
-	
+            </ul>
+        </nav>
 
-<script type="text/javascript">var slideIndex = 0;
-showSlides();
+    </div>
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1} 
-    slides[slideIndex-1].style.display = "block"; 
-    setTimeout(showSlides,2500); // Change image every 2 seconds
-}
-</script>
+</header>
+<section id="showcase">
+    <div class="container">
+        <h1>How Design Amazing Web Sites </h1>
+        <p>Designing a great website may seem like a daunting challenge, but as long as you keep the basics in mind, you will find the process interesting and enjoyable.</p>
+    </div>
+
+</section>
+<section id="newsletter">
+    <div class="container">
+        <h1>Subscribe to our newsletter</h1>
+        <form>
+            <input type="email" placeholder="Enter Email...">
+            <button type="submit" class="button_1">Subscribe</button>
+        </form>
+
+    </div>
+</section>
+<section id="boxes">
+    <div class="container">
+        <div class="box">
+            <img src="./img/logo_html.png">
+            <h3>HTML5 Markup</h3>
+            <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.</p>
+
+        </div>
+        <div class="box">
+            <img src="./img/logo_css.png">
+            <h3>CS3 Styling</h3>
+            <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.</p>
+
+        </div>
+        <div class="box">
+            <img src="./img/logo_graphic.png">
+            <h3>Graphic Design</h3>
+            <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard.</p>
+
+        </div>
+
+
+
+    </div>
+</section>
+<footer>
+    <p>Acme web design,Copyright &copy; 2017</p>
+</footer>
 
 
 </body>
+
+
 </html>
