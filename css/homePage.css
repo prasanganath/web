@@ -1,0 +1,26 @@
+.subTopicsFrame{
+	display: block;
+	margin: 5px;
+	min-height: 200px;
+	border: 1px solid darkorange;
+	border-radius: 10px;
+}
+
+.subTopics{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 70px;
+}
+
+.subTopics a{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 70px;
+	text-decoration: none;
+	color: black;
+}
+
+.subTopics a:hover{
+	font-size: 52px;
+	color: green;
+}
